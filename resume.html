@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandeep Kaur - Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .resume {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1,
+        h2 {
+            color: #0d6efd;
+            font-weight: 600;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #0d6efd;
+            padding-bottom: 5px;
+        }
+
+        .section-title {
+            font-size: 1.6rem;
+            margin-top: 25px;
+            color: #0d6efd;
+        }
+
+        .text-center p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .table th,
+        .table td {
+            vertical-align: middle;
+            padding: 12px 15px;
+        }
+
+        .table th {
+            width: 30%;
+            background-color: #f1f1f1;
+        }
+
+        .table td {
+            width: 70%;
+        }
+
+        .progress {
+            height: 20px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
+        .progress-bar {
+            font-size: 0;
+            line-height: 20px;
+        }
+
+        .table-bordered {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            font-size: 1.1rem;
+            margin-bottom: 12px;
+        }
+
+        .container p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 1rem;
+            color: #777;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin: 0 auto 15px;
+            display: block;
+            border: 3px solid #fff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .name {
+            text-align: center;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #0d6efd;
+        }
+
+        /* Modern Navbar Styles */
+        .navbar {
+            background: #212529;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: #0d6efd !important;
+            letter-spacing: 1px;
+        }
+        .navbar-nav .nav-link {
+            color: #ced4da !important;
+            font-weight: 500;
+            border-radius: 5px;
+            margin: 0 2px;
+            transition: background 0.2s, color 0.2s;
+        }
+        .navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+            background: #00c9a7 !important;
+            color: #fff !important;
+        }
+        .navbar-toggler {
+            border: none;
+            outline: none;
+        }
+        .navbar-toggler:focus {
+            box-shadow: none;
+        }
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280,123,255,1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+
+        @media (max-width: 991.98px) {
+            .resume {
+                padding: 20px 5px;
+            }
+        }
+        @media (max-width: 768px) {
+            .profile-img {
+                width: 90px;
+                height: 90px;
+            }
+            .resume {
+                margin: 20px 0;
+                padding: 10px 2px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Modern Responsive Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="deep.jpg" alt="Profile" class="profile-img d-inline-block align-middle me-2" style="width:48px;height:48px;">
+                Mandeep Kaur
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Mandeep_cv.pdf">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="resume container p-4">
+        <!-- Header Section -->
+        <div class="text-center mb-4">
+            <h1>Mandeep Kaur</h1>
+            <p class="lead">House No. 19, Bedi Colony Phase-1, Near Baba Deep Singh Dairy, Ferozepur City – 152002</p>
+            <p class="lead">Phone: +91 6239321859 | Email: <a href="mailto:deepthind96461@gmail.com">deepthind96461@gmail.com</a></p>
+        </div>
+
+        <!-- Personal Information Section -->
+        <div>
+            <h2 class="section-title">Personal Information</h2>
+            <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <th>Date of Birth</th>
+                        <td>17-08-1995</td>
+                    </tr>
+                    <tr>
+                        <th>Gender</th>
+                        <td>Female</td>
+                    </tr>
+                    <tr>
+                        <th>Father's Name</th>
+                        <td>D/o Gurmeet Singh</td>
+                    </tr>
+                    <tr>
+                        <th>Nationality</th>
+                        <td>Indian</td>
+                    </tr>
+                    <tr>
+                        <th>Marital Status</th>
+                        <td>Married</td>
+                    </tr>
+                    <tr>
+                        <th>Languages Known</th>
+                        <td>English, Hindi, Punjabi</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Profile Section -->
+        <div>
+            <h2 class="section-title">Profile</h2>
+            <p>I am a passionate and skilled professional with a strong background in Information Technology. I have
+                experience in web development and a strong command of PHP, MySQL, HTML, CSS, and JavaScript. My aim is
+                to continuously improve my skills while contributing to the success of the organization I work with.</p>
+        </div>
+
+        <!-- Career Objective Section -->
+        <div>
+            <h2 class="section-title">Career Objective</h2>
+            <p>To work in a challenging and dynamic environment where I can utilize my skills and knowledge for the
+                growth of the organization, while continuously upgrading myself and contributing to the organization’s
+                success.</p>
+        </div>
+
+        <!-- Educational Qualification Section -->
+        <div>
+            <h2 class="section-title">Educational Qualification</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Qualification</th>
+                        <th>Institute</th>
+                        <th>Board/University</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>M.Sc. Information Technology</td>
+                        <td>Dev Samaj College For Women, Ferozepur</td>
+                        <td>Panjab University</td>
+                    </tr>
+                    <tr>
+                        <td>BCA</td>
+                        <td>Dev Samaj College For Women, Ferozepur</td>
+                        <td>Panjab University</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Technical Skills Section -->
+        <div>
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="mb-2">
+                <strong>HTML</strong>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="mb-2">
+                <strong>CSS</strong>
+                <div class="progress">
+                    <div class="progress-bar bg-success" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="mb-2"></div>
+                <strong>Bootstrap</strong>
+                <div class="progress"></div>
+                    <div class="progress-bar bg-info" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="mb-2"></div>
+                <strong>PHP</strong>
+                <div class="progress"></div>
+                    <div class="progress-bar bg-warning" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="mb-2">
+                <strong>MySQL</strong>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" style="width: 70%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Skills Section -->
+        <div>
+            <h2 class="section-title">Additional Skills</h2>
+            <div class="mb-2"></div>
+                <strong>Logo Design</strong>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="mb-2">
+                <strong>Data Entry</strong>
+                <div class="progress">
+                    <div class="progress-bar bg-success" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="mb-2">
+                <strong>QR Code Design</strong>
+                <div class="progress">
+                    <div class="progress-bar bg-info" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="mb-2">
+        <div>
+            <h2 class="section-title">Hobbies</h2>
+            <ul>
+                <li>Cooking</li>
+                <li>Listening to Motivational Speeches</li>
+                <li>Reading Books</li>
+                <li>Travelling</li>
+                
+            </ul>
+        </div>
+
+        <!-- Strengths Section -->
+        <div>
+            <h2 class="section-title">Strengths</h2>
+            <ul>
+                <li>Strong analytical and problem-solving skills</li>
+                <li>Ability to work in a team and adapt to changing environments</li>
+                <li>Strong attention to detail and commitment to quality</li>
+                <li>Excellent communication and interpersonal skills</li>
+                <li>Quick learner and ability to handle multiple tasks effectively</li>
+            </ul>
+        </div>
+
+        <!-- Professional Experience Section -->
+        <div>
+            <h2 class="section-title text-center">Professional Experience</h2>
+            <h3 class="text-center text-bg-danger">Fresher</h3>
+        </div>
+
+        <!-- Projects Section -->
+        <div>
+            <h2 class="section-title">Projects</h2>
+            <ul>
+                <li><strong>Portfolio Website</strong> – A personal portfolio website built with HTML, CSS, and
+                    JavaScript showcasing my skills and projects.</li>
+            </ul>
+        </div>
+
+        <!-- References Section -->
+        <div>
+            <h2 class="section-title">References</h2>
+            <p>Available upon request.</p>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Thank you for reviewing my resume!</p>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
